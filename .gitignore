@@ -1,0 +1,27 @@
+# Python 虛擬環境
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+
+# 資料庫文件
+*.db
+*.sqlite3
+
+# Flask-Migrate 遷移資料夾的暫存文件
+migrations/
+!migrations/versions/  # 排除 migrations 但保留 versions 資料夾 (保存資料庫遷移腳本)
+
+# 環境變數和設定文件
+.env
+*.env
+
+# VS Code 設定 (避免個人設定影響其他開發者)
+.vscode/
+
+# 其他系統自動生成的文件
+.DS_Store  # macOS
+Thumbs.db  # Windows
