@@ -1,4 +1,4 @@
-# Flask-Migrate 資料遷移技術筆記
+# Flask-Migrate 資料遷移技術筆記 2025/2/23
 
 ## 📚 資料遷移 (Database Migration) 是什麼？
 資料遷移 (Migration) 是在應用程式開發過程中，對資料庫結構 (Schema) 進行變更的一種技術。
