@@ -46,7 +46,7 @@ migrate = Migrate(app, db)
 
 @app.route('/')
 def home():
-    return 'Hello, Flask-Migrate!'
+    return 'Hello, Flask-Migrate!!'
     
 if __name__ == '__main__':
     app.run(debug=True)
